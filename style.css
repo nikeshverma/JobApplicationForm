@@ -1,0 +1,81 @@
+	body{
+			background-image: url('image/bg3.jpg');
+			background-repeat:repeat;
+		    background-attachment:fixed;
+		    overflow:scroll;
+			color: white;
+		    /* font-family: 'Amita', cursive; */
+		     font-family: cursive;
+
+		}
+		h1{
+			/* padding-left: 500px;
+			padding-top: 50px; */
+			text-align: center;
+			font-size: 50px;
+			font-family: 'UnifrakturMaguntia', cursive;
+		}
+		div{
+			/* width: 300px; */
+			margin: 100px auto;
+			padding: 20px;
+			background-color: rgba(0, 0, 0, 0.3);
+			/* background-image: url('m3.jpg'); */
+			border-radius: 0 30px 0 30px;
+			color: white;
+			
+		}
+		div fieldset{
+			border-color: white;
+		 	border-radius: 0 10px 0 10px;   
+
+		}
+		fieldset legend{
+			border: inherit;
+			border-radius: inherit;
+			background: linear-gradient(45deg , red,orange,green);
+			font-family: 'UnifrakturMaguntia', cursive;
+			font-size: 35px;
+		}
+		input{
+			margin-left: 40px;
+			border-radius: 10px;
+			border: none;
+			outline: none;
+			margin: 10px;
+			height: 25px;
+
+		}
+		label{
+			/* margin-left: 40px; */
+			margin-top: 40px;
+			font-family: cursive;
+			font-size: 25px;
+ 
+		}
+		#field2 input{
+			margin-left: 60px; 
+		}
+		#field2 label{
+			margin-left: 60px;
+		}
+
+		#field3 label{
+			margin-left: 60px;
+			padding-left: 80px;
+		}
+		.btn1 input{
+           background: linear-gradient(45deg ,red,green);
+		   border: none;
+		   color: white;
+		   padding-bottom: 10px;
+		   text-align: center;
+		   text-decoration: none;
+		   display: inline-block;
+		   font-size: 25px;
+	   	   font-family: 'UnifrakturMaguntia', cursive;
+		   width: 150px;
+		   height: 50px;
+		   border-radius: 0px 20px 0px 20px;
+		}
+		
